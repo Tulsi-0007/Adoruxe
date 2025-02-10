@@ -1,0 +1,77 @@
+.navbar{
+    background-color: rgb(250, 247, 242);
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 1px 3px -2px black;
+    height: 200;
+    width: 200;
+}
+.website-logo{
+    display: flex;
+}
+.website-logo img{
+    height: 100px;
+    width: 100px;
+}
+.website-logo h2{
+    color: #dab85c;
+    font-size: 40px;
+    font-weight:600;
+}
+.shop-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: rgb(75, 70, 70);
+    font-size: 20px;
+    font-weight: 500;
+}
+.shop-list li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    color: #3f3a3a;
+}
+.shop-list li:hover {
+    color: rgb(48, 161, 236);
+}
+.Account-details{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Account-details button{
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 20px;
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+}
+.Account-details button:active{
+    background: #998a8a;
+}
+.aaloo{
+    display: flex;
+    height: 15px;
+    width: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: #dab85c;
+    color: white;
+}
+

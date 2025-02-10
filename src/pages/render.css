@@ -1,0 +1,157 @@
+.home-decor{
+    background-image: linear-gradient(rgba(122, 113, 113, 0.5), rgba(77, 72, 72, 0.5)), url('https://i.ebayimg.com/images/g/WsIAAOSwXKlnEeOj/s-l1600.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    height: 400px;
+    width: 1330px;
+    color: #fff;
+}
+.Mission-decor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  background-color: rgb(248, 248, 164);
+}
+.Mission-decor h2{
+    font-size: 48px;
+  font-weight: bold;
+  color: #0c0c0c;
+  margin-bottom: 20px;
+}
+.Mission-decor p{
+    font-size: 18px;
+    color: #141313;
+    margin-bottom: 30px;
+}
+
+.home-decor {
+    position: relative;
+    width: 1330px;
+    height: 200px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .quote-container {
+    padding: 20px;
+  }
+  
+  .quote-container h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .quote-container p {
+    font-size: 40px;
+    color: #fdfcfc;
+  }
+  
+  .fade-in {
+    animation: fadeIn 1.0s ease-in-out;
+  }
+  .footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+  .footer a:hover {
+    color: #ccc;
+  }
+  
+  .social-icons {
+    font-size: 24px;
+    margin: 10px;
+  }
+
+  
+
+
+  
+   /* login-singup page */
+   .Account-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Account-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  .Account-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Account-page label {
+    margin-bottom: 10px;
+  }
+  
+  .Account-page input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Account-page button[type="submit"] {
+    background-color: brown;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Account-page button[type="submit"]:hover {
+    background-color: brown;
+  }
+  
+  .Account-page p {
+    margin-top: 20px;
+  }
+  
+  .Account-page button {
+    background-color: brown;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Account-page button:hover {
+    background-color: brown;
+  }
+  
+  
